@@ -145,7 +145,7 @@ footer a{
   
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 720px) {
   .contenedor1 {
     font-size: 16px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
     height: auto; /* Ajusta la altura según el contenido */
