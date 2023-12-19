@@ -123,8 +123,8 @@ footer a{
   }
   
   @keyframes dv-1 {
-    0%,15.5%    {content: " Bienvenidos,      "}
-    15.6%,31.2% {content: " a, "}
+    0%,15.5%    {content: "      Bienvenidos,"}
+    15.6%,31.2% {content: " a,"}
     31.3%,46.8% {content: " PlayTecnica";background:#000;color:#fff;font-size:22px;clip-path:polygon(0 0,100% 0,100% 100%,calc(100% - 20px) calc(100% - 20px),0 calc(100% - 20px))}
     46.9%,62.5%{content:" Garantizamos ";background:lightblue;color:#000;font-size:18px;clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),20px calc(100% - 20px),0 100%)}
     62.6%,80%  {content:" Servicios ";background: #000;color:#fff;font-size:22px;clip-path:polygon(0 0,100% 0,100% 100%,calc(100% - 20px) calc(100% - 20px),0 calc(100% - 20px))}
@@ -186,7 +186,7 @@ footer a{
   display:flex;
   position:relative;
   border-radius: 50%;
-  margin-left: auto;
+  margin-left: 200px;
   
   z-index: 1;
   
