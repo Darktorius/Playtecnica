@@ -145,7 +145,7 @@ footer a{
   
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   .contenedor1 {
     font-size: 16px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
     height: auto; /* Ajusta la altura según el contenido */
@@ -186,11 +186,33 @@ footer a{
   display:flex;
   position:relative;
   border-radius: 50%;
-  margin-left: 300px;
-  justify-content: end;
+  margin-left: 230px;
+  
   z-index: 1;
   
   
 }
+footer{
+  background-color: #344e41;
+  margin: auto;
+  font-family: 'Lexend Mega', sans-serif;
+
+}
+.fut1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #344e41;
+  padding: 50px;
+  gap: 20px;
+  font-size: 20px;
+  margin:auto;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+footer a{
+  color: rgb(2, 85, 252);
+  font-family: 'Lexend Mega', sans-serif;
+}
+
 
 }
