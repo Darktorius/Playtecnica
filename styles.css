@@ -186,7 +186,7 @@ footer a{
   display:flex;
   position:relative;
   border-radius: 50%;
-  margin-left: 230px;
+  margin-left: auto;
   
   z-index: 1;
   
