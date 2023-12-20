@@ -1,12 +1,9 @@
-
-
-
-
-document.querySelector("#submit1").addEventListener("click", e => {
+document.querySelector("#submit2").addEventListener("click", e => {
+    console.log("Button Clicked");
     e.preventDefault();
   
     //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-    const telefono = "01133983336";
+    const telefono = "01158412165";
   
     const cliente = document.querySelector("#cliente").value;
     
@@ -18,15 +15,13 @@ document.querySelector("#submit1").addEventListener("click", e => {
     resp.classList.remove("fail");
     resp.classList.remove("send");
   
-    const url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-          
-          *¿Cuál es tu nombre?*%0A
-          ${cliente}%0A
-          
-          
-          
-          *¿Cual es su consulta?*%0A
-          ${consulta}`;
+    const url = `https://api.whatsapp.com/send?phone=${telefono}&text=` +
+    `*¿Cuál es tu nombre?*%0A
+      ${cliente}%0A*
+      
+      
+      ¿Cual es su consulta?*%0A
+      ${consulta}`;
   
     if (cliente === "" ) {
       resp.classList.add("fail");
@@ -38,7 +33,5 @@ document.querySelector("#submit1").addEventListener("click", e => {
     resp.innerHTML = `Se ha enviado su consulta, ${cliente} Gracias por su confianza`;
   
     window.open(url);
-  });
-
-
-
+  }
+);
